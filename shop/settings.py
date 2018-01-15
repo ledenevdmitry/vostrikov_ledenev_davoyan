@@ -25,7 +25,7 @@ SECRET_KEY = 'z0b%ivg0v^flk3cp*xg_#io8ye%%6@il)k$hws=(sg%ox%15^t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', CandyShop]
+ALLOWED_HOSTS = ['127.0.0.1', 'CandyShop.pythonanywhere.com']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'shopapp',
 ]
 
 MIDDLEWARE = [
